@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NextSolutionNetwork | KI-Kassensystem</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="NextSolutionNetwork Logo" />
+      <span>NextSolutionNetwork</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">Lösung</a></li>
+      <li><a href="#value">Wertversprechen</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact" class="btn-nav">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>KI-basiertes Kassensystem für die Gastronomie</h1>
+      <p>Effizienz, Automatisierung und digitale Unabhängigkeit für Liefer- und Systemgastronomie.</p>
+      <a href="#contact" class="btn-main">Pilotkunde werden</a>
+    </div>
+    <img src="images/system-preview.png" alt="System Preview" class="hero-img" />
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section light">
+    <h2>Unsere Lösung</h2>
+    <p>
+      NextSolutionNetwork ist ein modulares, KI-gestütztes Kassensystem, das Bestellungen,
+      Zahlungen, Routenplanung und Voice-AI in einer Plattform vereint.
+      Ziel: weniger Abhängigkeit von Lieferplattformen, mehr Effizienz und Kontrolle.
+    </p>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>All-in-One-System</h3>
+        <p>POS, Online-Bestellungen, KI-Routing und Analytik in einer Plattform.</p>
+      </div>
+      <div class="about-card">
+        <h3>Digitale Unabhängigkeit</h3>
+        <p>Eigene Bestellkanäle statt teurer Plattformprovisionen.</p>
+      </div>
+      <div class="about-card">
+        <h3>Skalierbar</h3>
+        <p>Von kleinen Restaurants bis zu großen Filialketten anpassbar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE SECTION -->
+  <section id="value" class="section dark">
+    <h2>Wertversprechen</h2>
+    <ul class="value-list">
+      <li>💡 <strong>Digitale Unabhängigkeit:</strong> Eigene Bestellplattform & Datenhoheit.</li>
+      <li>⚙️ <strong>Automatisierung:</strong> KI-basierte Prozesse und Voice-AI reduzieren Personalaufwand.</li>
+      <li>📊 <strong>Kosteneffizienz:</strong> Bis zu 30 % geringere Betriebskosten.</li>
+      <li>🚀 <strong>Skalierbarkeit:</strong> SaaS-Modell mit über 90 % Bruttomarge.</li>
+    </ul>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features" class="section light">
+    <h2>Technologie & Features</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <img src="images/ai-module.png" alt="AI Module" />
+        <h3>Voice-AI</h3>
+        <p>Automatische Bestellannahme per Sprache – entlastet das Personal.</p>
+      </div>
+      <div class="feature">
+        <img src="images/system-preview.png" alt="Routing System" />
+        <h3>KI-Routenoptimierung</h3>
+        <p>Berechnet Lieferwege in Echtzeit, verkürzt Lieferzeiten und spart Kosten.</p>
+      </div>
+      <div class="feature">
+        <img src="images/logo.png" alt="Analytics" />
+        <h3>Datenanalyse</h3>
+        <p>Analytik-Tools für Bestellungen, Umsatz, Stoßzeiten und Performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section id="team" class="section dark">
+    <h2>Unser Team</h2>
+    <div class="team-container">
+      <img src="images/team.png" alt="Team" />
+      <div class="team-text">
+        <p>
+          Das Gründerteam vereint technologische Kompetenz, betriebswirtschaftliches Denken
+          und Branchenwissen der Gastronomie. Gemeinsam schaffen wir die Basis für eine
+          nachhaltige Digitalisierung im Food-Sektor.
+        </p>
+        <p><strong>Abdullah Al-Hakimi, Abdulrahman Salam, Hashim Khamis, Besnik Haziri</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section light contact">
+    <h2>Kontakt</h2>
+    <p>Interessiert an einer Demo oder Partnerschaft? Schreiben Sie uns!</p>
+    <form class="contact-form" onsubmit="sendEmail(event)">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="E-Mail" required />
+      <textarea id="message" rows="4" placeholder="Ihre Nachricht"></textarea>
+      <button type="submit" class="btn-main">Nachricht senden</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 NextSolutionNetwork – Effizienz · Automatisierung · Digitale Freiheit</p>
+  </footer>
+</body>
+</html>
